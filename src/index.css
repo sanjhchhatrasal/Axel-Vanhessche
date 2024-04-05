@@ -1,0 +1,228 @@
+
+#nav{
+  position: fixed;
+  z-index: 9999;
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Neue Montreal, sans-serif;
+}
+
+#nav .box{
+  position: absolute;
+  top: -10vw;
+}
+
+#nav .box h1{
+ /*  position: absolute;
+  top: -10vw; */
+  font-family: Bulevar, sans-serif;
+  line-height: 170px;
+  font-size: 15vw;
+  font-weight: 500;
+}
+
+#nav .left{
+  position: absolute;
+  left: 30vw;
+  display: flex;
+  gap: 5vw;
+  font-size: 1.4vw;
+  align-items: center;
+}
+#nav .left h6{
+  font-weight: 300;
+}
+
+#nav .right{
+  position: absolute;
+  right: 7vw;
+  display: flex;
+  font-size: 1.7vw;
+  gap: 2vw;
+  align-items: center;
+}
+#nav .right h6{
+  font-weight: 400;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  color: rgb(169, 169, 169);
+}
+#nav .right h6:nth-child(1){
+  color: #000;
+}
+#nav .right h6:hover{
+  color: #000;
+}
+
+.main{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  font-family: gilroy;
+}
+
+#page1
+{
+  position: relative;
+  width: 100%;
+  height: 400vh;
+}
+#page1 img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#page1 .img1{
+  z-index: 99;
+  position: absolute;
+  top: 4vw;
+  right: 0;
+  height: 80vh;
+  width: 30%;
+  background-color: #5d21b0;
+}
+#page1 .img2{
+  z-index: 99;
+  position: absolute;
+  top: 25vw;
+  left: 0;
+  height: 30vh;
+  width: 15%;
+  background-color: #b0218c;
+}
+#page1 .img3{
+  z-index: 99;
+  position: absolute;
+  top: 65vw;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 80vh;
+  width: 30%;
+  background-color: #b0218c;
+}
+#page1 .img4{
+  z-index: 99;
+  position: absolute;
+  top: 85vw;
+  left: 0%;
+  height: 70vh;
+  width: 30%;
+  background-color: #21a4b0;
+}
+#page1 .img5{
+  z-index: 99;
+  position: absolute;
+  top: 85vw;
+ right: 0;
+  height: 30vh;
+  width: 15%;
+  background-color: #21a4b0;
+}
+#page1 .img6{
+  z-index: 99;
+  position: absolute;
+  top: 115vw;
+  right: 25vw;
+  height: 70vh;
+  width: 30%;
+  background-color: #21b040;
+}
+#page1 .img7{
+  z-index: 99;
+  position: absolute;
+  top: 145vw;
+  left: 10vw;
+  height: 50vh;
+  width: 20%;
+  background-color: #79b021;
+}
+#page1 .img8{
+  z-index: 99;
+  position: absolute;
+  top: 165vw;
+  right: 0;
+  height: 80vh;
+  width: 30%;
+  background-color: #b0ab21;
+}
+#page1 .img9{
+  z-index: 99;
+  position: absolute;
+  top: 180vw;
+  left: 0;
+  height: 70vh;
+  width: 20%;
+  background-color: #032f36;
+}
+
+#page2
+{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+#page2 .svg ,.svg2{
+  width: 100%;
+  height: 100vh;
+  mask-image: url(./assets/starimg.svg);
+  mask-size: 0%;
+  mask-repeat: no-repeat;
+  mask-position: center;
+ transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+#page2 .svg .img{
+  width: 100%;
+  height: 100%;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(./assets/peugeot_385.webp);
+}
+#page2 .svg .img2{
+  width: 100%;
+  height: 100%;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(./assets/summer-cover-selected.webp);
+}
+
+#footer{
+  height: 70vh;
+  width: 100%;
+}
+#footer .top{
+  display: flex;
+  align-items: center;
+  height: 85%;
+  width: 100%;
+}
+#footer .top button{
+  padding: 1.5vw 2.5vw;
+  margin-left: 3vw;
+  border-radius: 5vw;
+  font-size: 5vw;
+  background-color: #fff;
+  transition: all ease 0.5s;
+}
+#footer .top button:hover{
+  background-color: #000;
+  color: #fff;
+}
+#footer .btm{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15%;
+  width: 100%;
+  border-top: 1px solid #000;
+}
+#footer .btm h6{
+  font-size: 1vw;
+  font-weight: 400;
+}
