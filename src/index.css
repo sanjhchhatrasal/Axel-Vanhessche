@@ -1,4 +1,11 @@
-
+@font-face {
+  font-family:Neue Montreal ;
+  src: url("../public/NeueMontreal-Medium.d200edc\ \(1\).woff2");
+}
+@font-face {
+  font-family: Bulevar ;
+  src: url("../public/Bulevar-Regular.9f86a6f.woff");
+}
 #nav{
   position: fixed;
   z-index: 9999;
